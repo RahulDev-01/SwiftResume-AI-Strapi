@@ -20,6 +20,9 @@
     },
     "endDate": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   },
   "config": {}
