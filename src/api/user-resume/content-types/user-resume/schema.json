@@ -44,6 +44,16 @@
     },
     "summery": {
       "type": "richtext"
+    },
+    "Education": {
+      "type": "component",
+      "component": "education.education",
+      "repeatable": true
+    },
+    "Experience": {
+      "type": "component",
+      "component": "experience.experience",
+      "repeatable": true
     }
   }
 }
