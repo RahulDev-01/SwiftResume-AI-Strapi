@@ -54,6 +54,11 @@
       "type": "component",
       "component": "experience.experience",
       "repeatable": true
+    },
+    "Skills": {
+      "type": "component",
+      "component": "skills.skills",
+      "repeatable": true
     }
   }
 }
