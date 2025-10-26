@@ -59,6 +59,12 @@
       "type": "component",
       "component": "skills.skills",
       "repeatable": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "themeColor": {
+      "type": "string"
     }
   }
 }
