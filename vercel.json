@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://incredible-feast-a32170c2d4.strapiapp.com/$1" }
+  ]
+}
