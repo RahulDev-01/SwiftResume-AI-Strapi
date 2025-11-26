@@ -2,7 +2,7 @@
   "collectionName": "components_certifications_certifications",
   "info": {
     "displayName": "Certifications",
-    "description": ""
+    "icon": "certificate"
   },
   "options": {},
   "attributes": {
@@ -18,5 +18,6 @@
     "url": {
       "type": "string"
     }
-  }
+  },
+  "config": {}
 }

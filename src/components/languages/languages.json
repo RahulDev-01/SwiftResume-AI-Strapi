@@ -2,7 +2,7 @@
   "collectionName": "components_languages_languages",
   "info": {
     "displayName": "Languages",
-    "description": ""
+    "icon": "globe"
   },
   "options": {},
   "attributes": {
@@ -12,5 +12,6 @@
     "proficiency": {
       "type": "string"
     }
-  }
+  },
+  "config": {}
 }
