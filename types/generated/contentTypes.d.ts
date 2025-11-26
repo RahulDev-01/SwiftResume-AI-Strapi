@@ -385,6 +385,10 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
   };
   attributes: {
     address: Schema.Attribute.String;
+    Certifications: Schema.Attribute.Component<
+      'certifications.certifications',
+      true
+    >;
     color: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -394,6 +398,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     Experience: Schema.Attribute.Component<'experience.experience', true>;
     firstName: Schema.Attribute.String;
     jobTitle: Schema.Attribute.String;
+    Languages: Schema.Attribute.Component<'languages.languages', true>;
     lastName: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -406,6 +411,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     resumeId: Schema.Attribute.String;
     Skills: Schema.Attribute.Component<'skills.skills', true>;
     summery: Schema.Attribute.RichText;
+    templateId: Schema.Attribute.String;
     themeColor: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
