@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_certifications_certifications",
+  "info": {
+    "displayName": "Certifications",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

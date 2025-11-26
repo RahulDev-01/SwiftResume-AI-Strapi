@@ -60,10 +60,23 @@
       "component": "skills.skills",
       "repeatable": true
     },
+    "Languages": {
+      "type": "component",
+      "component": "languages.languages",
+      "repeatable": true
+    },
+    "Certifications": {
+      "type": "component",
+      "component": "certifications.certifications",
+      "repeatable": true
+    },
     "color": {
       "type": "string"
     },
     "themeColor": {
+      "type": "string"
+    },
+    "templateId": {
       "type": "string"
     }
   }
