@@ -26,6 +26,9 @@
     },
     "workSummery": {
       "type": "richtext"
+    },
+    "url": {
+      "type": "string"
     }
   },
   "config": {}

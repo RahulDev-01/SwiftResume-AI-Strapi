@@ -42,6 +42,12 @@
     "email": {
       "type": "string"
     },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
     "summery": {
       "type": "richtext"
     },
