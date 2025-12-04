@@ -71,7 +71,7 @@
       "component": "languages.languages",
       "repeatable": true
     },
-    "Certifications": {
+    "Projects": {
       "type": "component",
       "component": "certifications.certifications",
       "repeatable": true

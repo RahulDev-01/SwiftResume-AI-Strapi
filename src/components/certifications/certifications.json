@@ -1,22 +1,22 @@
 {
-  "collectionName": "components_certifications_certifications",
+  "collectionName": "components_projects_projects",
   "info": {
-    "displayName": "Certifications",
-    "icon": "certificate"
+    "displayName": "Projects",
+    "icon": "project-diagram"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "issuer": {
-      "type": "string"
-    },
-    "date": {
+    "linkDisplay": {
       "type": "string"
     },
     "url": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   },
   "config": {}
