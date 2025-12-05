@@ -73,7 +73,7 @@
     },
     "Projects": {
       "type": "component",
-      "component": "certifications.certifications",
+      "component": "projects.projects",
       "repeatable": true
     },
     "color": {

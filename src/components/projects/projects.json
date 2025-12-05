@@ -2,7 +2,8 @@
   "collectionName": "components_projects_projects",
   "info": {
     "displayName": "Projects",
-    "icon": "project-diagram"
+    "icon": "project-diagram",
+    "description": ""
   },
   "options": {},
   "attributes": {
