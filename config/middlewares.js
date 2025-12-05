@@ -6,13 +6,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: [
-        'https://swiftresumeai.vercel.app',
-        /\.vercel\.app$/,  // Allow all Vercel preview deployments
-        'http://localhost:5173',
-        'http://localhost:3000',
-        'http://localhost:5174',
-      ],
+      origin: '*', // Allow all origins
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: '*',  // Allow all headers
       credentials: true,
