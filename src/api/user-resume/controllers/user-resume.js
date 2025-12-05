@@ -15,6 +15,8 @@ module.exports = createCoreController('api::user-resume.user-resume', ({ strapi 
         Experience: { populate: '*' },
         Education: { populate: '*' },
         Skills: { populate: '*' },
+        Projects: { populate: '*' },
+        Languages: { populate: '*' },
       },
     };
 
@@ -30,6 +32,8 @@ module.exports = createCoreController('api::user-resume.user-resume', ({ strapi 
               Experience: Array.isArray(attrs.Experience) ? attrs.Experience : [],
               Education: Array.isArray(attrs.Education) ? attrs.Education : [],
               Skills: Array.isArray(attrs.Skills) ? attrs.Skills : [],
+              Projects: Array.isArray(attrs.Projects) ? attrs.Projects : [],
+              Languages: Array.isArray(attrs.Languages) ? attrs.Languages : [],
             },
           };
         })
@@ -46,6 +50,8 @@ module.exports = createCoreController('api::user-resume.user-resume', ({ strapi 
         Experience: { populate: '*' },
         Education: { populate: '*' },
         Skills: { populate: '*' },
+        Projects: { populate: '*' },
+        Languages: { populate: '*' },
       },
     };
 
@@ -58,6 +64,8 @@ module.exports = createCoreController('api::user-resume.user-resume', ({ strapi 
         Experience: Array.isArray(attrs.Experience) ? attrs.Experience : [],
         Education: Array.isArray(attrs.Education) ? attrs.Education : [],
         Skills: Array.isArray(attrs.Skills) ? attrs.Skills : [],
+        Projects: Array.isArray(attrs.Projects) ? attrs.Projects : [],
+        Languages: Array.isArray(attrs.Languages) ? attrs.Languages : [],
       };
     }
 
